@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcfcfd;
+    /* display: flex; */
+    /* align-items: center; */
+    /* height: 100vh; */
+    /* justify-content: center; */
+    padding: 28px;
+}
+.product{
+    padding: 76px 0;
+}
+
+.product__details{
+    border-radius: 16px;
+    background: #FEFEFB;
+    padding: 26px 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 39, 81, 0.08);
+
+}
+.product__title{
+    color: #222950;
+    font-family: "Baloo Da 2";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.product__title span{
+    color: #8A94A6;
+    font-family: "Baloo Da 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 23px;
+}
+.product__select{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.product__select-left{
+    margin-right: 30px;
+}
+label{
+    color: #8A94A6;
+    font-family: "Baloo Da 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+}
+.my-order__product-activity{
+    display: grid;
+    align-items: center;
+   
+}
+
+
+
+.product__total-handler{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product__handler-amount{
+    width: 100%;
+    margin: 0px 18px;
+    border-radius: 8px;
+    border: 1px solid #EBEDF5;
+    background: #FEFEFB;
+    /* padding: 7px 0; */
+    color: #595F84;
+    font-family: "Baloo Da 2";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    /* height: 39px;  */
+
+}
+.out-now-btn{
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #258AFF 0%, #0063FF 100%);
+    color: #FFF;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 157.143% */
+    margin-top: 18px;
+    border: none;
+}
+
+
+.my-order__product-item{
+    padding: 20px;
+    text-align: left;
+    border-right: 1px solid rgba(46, 49, 133, 0.08);
+}
+.my-order__product-item:last-child{
+    border: none;
+}
+.my-order__product-item h3{
+    color: #8A94A6;
+    /* text-align: center; */
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.my-order__product-item h2{
+    color: #595F84;
+    /* text-align: center; */
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
